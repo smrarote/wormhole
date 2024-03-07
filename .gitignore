@@ -130,4 +130,6 @@ dist
 .pnp.*
 
 # Build
-/build
+build/
+.env
+node_modules/
