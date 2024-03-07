@@ -1,2 +1,3 @@
-# wormhole
-Large file sharing application 
+# WormHole
+
+Large file sharing application

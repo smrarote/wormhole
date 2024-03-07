@@ -1,0 +1,36 @@
+{
+  "name": "wormhole",
+  "version": "1.0.0",
+  "description": "file sharing platform ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "dev": "NODE_ENV=development nodemon build/server.js",
+    "prod": "NODE_ENV=production node build/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smrarote/wormhole.git"
+  },
+  "keywords": [
+    "file",
+    "sharing"
+  ],
+  "author": "Smrarote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smrarote/wormhole/issues"
+  },
+  "homepage": "https://github.com/smrarote/wormhole#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
